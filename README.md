@@ -20,3 +20,12 @@ I used some visualization methods to have a better understanding of features' re
 <p align="center"> 
    <img alt="Ekran Resmi 2021-06-28 01 15 28" src="https://user-images.githubusercontent.com/87663976/143217634-99cb184b-1684-4c50-b22c-88733deeb62e.png">
 </p>
+Then I wanted to show the relation between life expectancy and other features. I first visualized the top ten countries with the highest life expectancy with a barplot. After that, I plotted a scatter plot of life expectancy with other features, it did not only make a better understanding of the relation between features and life expectancy but also showed there were outliers in our dataset. To see outliers better I plotted a boxplot to visualize them. Many variables on our dataset including the target variable (life expectancy) had outliers. But I let the outliers stay and decided to deal with them later.
+
+# Correlation 
+
+<p align="center"> 
+   <img alt="Ekran Resmi 2021-06-28 01 15 28" src="https://user-images.githubusercontent.com/87663976/143219223-4451b45d-d5ab-4aaa-86a4-37caf145171a.png">
+</p>
+
+
