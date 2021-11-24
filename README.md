@@ -38,6 +38,11 @@ Robust Scaler is one of the best scaler methods to use when a dataset contains o
 
 # Models 
 We trained eight different models (Lasso, Ridge, Random Forest, KNN, Decision Tree, SVR, Gradient Boosting Regressor and Ada Boosting Regregssor) to see which one is the giving best results. Then I checked results after cross validation too and plotted the results.
+
+<p align="center"> 
+   <img alt="Ekran Resmi 2021-06-28 01 15 28" src="https://user-images.githubusercontent.com/87663976/143230048-15c01952-afb2-42e7-b89c-47343a3d0353.png">
+</p>
+
 <p align="center"> 
    <img alt="Ekran Resmi 2021-06-28 01 15 28" src="https://user-images.githubusercontent.com/87663976/143229476-dfa19181-73d5-4a0b-8919-763ec6d82cc6.png">
 </p>
