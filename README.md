@@ -18,5 +18,5 @@ First of all, I changed the column names to lower case to make it a clear datase
 I used some visualization methods to have a better understanding of features' relation, and also their effects on life expectancy.Initially, I plotted the count of numerical variables among the dataset with histplot. I only had two categorical features, country and status. Status was showing whether a country was developing or developed. I plotted the count of status distribution with catplot.
 
 <p align="center"> 
-   <img width="1000" height="400" alt="Ekran Resmi 2021-06-28 01 15 28" src="https://user-images.githubusercontent.com/87663976/143217634-99cb184b-1684-4c50-b22c-88733deeb62e.png">
+   <img alt="Ekran Resmi 2021-06-28 01 15 28" src="https://user-images.githubusercontent.com/87663976/143217634-99cb184b-1684-4c50-b22c-88733deeb62e.png">
 </p>
