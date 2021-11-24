@@ -28,4 +28,16 @@ Then I wanted to show the relation between life expectancy and other features. I
    <img alt="Ekran Resmi 2021-06-28 01 15 28" src="https://user-images.githubusercontent.com/87663976/143219223-4451b45d-d5ab-4aaa-86a4-37caf145171a.png">
 </p>
 
+As it can be seen on the correlation matrix some features had a high correlation between them. When independent features are highly correlated i.e. have the same nature, then they introduce the element of variance in the model which is called Multi-Collinearity. Multi-Collinearity is not good for our models so I dropped some of the columns to avoid that.
 
+# Label Encoding
+We had only two categorical columns. When it comes to the "status" column, the ordinal column is encoded with the label encoding method. The "country" column is nominal and it is encoded with the one-hot encoding method. And I encoded "country" column with one-hot encoding method I dropped one column to avoid Multi-Collinearity.
+
+# Feature Scaling
+Robust Scaler is one of the best scaler methods to use when a dataset contains outliers. As seen previously, our dataset had outliers and we did not remove or replace them. Outliers can skew a probability distribution and make data scaling using standardization difficult as the calculated mean and standard deviation will be skewed by the presence of the outliers. Therefore, we choose RobustScaler for our Feature scaling.
+
+# Models 
+We trained eight different models (Lasso, Ridge, Random Forest, KNN, Decision Tree, SVR, Gradient Boosting Regressor and Ada Boosting Regregssor) to see which one is the giving best results. Then I checked results after cross validation too and plotted the results.
+<p align="center"> 
+   <img alt="Ekran Resmi 2021-06-28 01 15 28" src="https://user-images.githubusercontent.com/87663976/143229476-dfa19181-73d5-4a0b-8919-763ec6d82cc6.png">
+</p>
