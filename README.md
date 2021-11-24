@@ -20,7 +20,7 @@ I used some visualization methods to have a better understanding of features' re
 <p align="center"> 
    <img alt="Ekran Resmi 2021-06-28 01 15 28" src="https://user-images.githubusercontent.com/87663976/143217634-99cb184b-1684-4c50-b22c-88733deeb62e.png">
 </p>
-Then I wanted to show the relation between life expectancy and other features. I first visualized the top ten countries with the highest life expectancy with a barplot. After that, I plotted a scatter plot of life expectancy with other features, it did not only make a better understanding of the relation between features and life expectancy but also showed there were outliers in our dataset. To see outliers better I plotted a boxplot to visualize them. Many variables on our dataset including the target variable (life expectancy) had outliers. But I let the outliers stay and decided to deal with them later.
+Then I wanted to show the relation between life expectancy and other features. I first visualized the top ten countries with the highest life expectancy with a barplot. After that, I plotted a scatter plot of life expectancy with other features, it did not only make a better understanding of the relation between features and life expectancy but also showed there were outliers in our dataset. To see outliers better I plotted a boxplot to visualize them. Many variables on our dataset including the target variable (life expectancy) had outliers. But I let the outliers stay and decided to deal with them later
 
 # Correlation 
 
@@ -38,7 +38,19 @@ Robust Scaler is one of the best scaler methods to use when a dataset contains o
 
 # Models 
 We trained eight different models (Lasso, Ridge, Random Forest, KNN, Decision Tree, SVR, Gradient Boosting Regressor and Ada Boosting Regregssor) to see which one is the giving best results. Then I checked results after cross validation too and plotted the results.
+# Accuracy Scores
 
+
+   | Model                | CV R2 Mean   |      Std     |
+   | :------------------: | :----------: | :-----------:|
+   |  Lasso               | 0.9481       | 0.0143       |
+   |  Ridge               | 0.9481       | 0.0143       |
+   |  Random Forest       | 0.9611       | 0.0078       |
+   |  KNN                 | 0.839148	  | 0.0123       |
+   |  Decision Tree       | 0.8926       | 0.0149       |
+   |  SVR                 | 0.8328       | 0.0224       |
+   |  Gradient Boosting   | 0.9497       | 0.0074       |
+   |  Ada Boosting        | 0.8921       | 0.0126       |
 <p align="center"> 
    <img alt="Ekran Resmi 2021-06-28 01 15 28" src="https://user-images.githubusercontent.com/87663976/143230048-15c01952-afb2-42e7-b89c-47343a3d0353.png">
 </p>
